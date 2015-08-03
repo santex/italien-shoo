@@ -1,0 +1,209 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de" lang="de">
+<head>
+
+<meta name="GENERATOR" content="IMPERIA 8.6.0" />
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="language" content="de" />
+<link href="favicon.ico" rel="SHORTCUT ICON" type="image/x-icon" />
+<title>STRATO Monitor</title>
+<meta name="DESCRIPTION" content="Monitoringsystem der STRATO AG" />
+
+
+<meta name="X-Imperia-Live-Info" content="24ef7db2-dca9-9fe6-6d90-49c85277324a/28017/29466/29467" />
+
+<link rel="stylesheet" type="text/css" href="_assets_de/css/main.css" media="all" />
+<link rel="stylesheet" type="text/css" href="_assets_de/css/tmpl_mod/homepage_1c_020.css" media="all" />
+<link rel="stylesheet" type="text/css" href="_assets_de/css/rubrik/homepage.css" media="all" />
+<link rel="stylesheet" type="text/css" href="_assets_de/css/calendar_js.css" media="all" />
+
+</head>
+<a name="top"></a>
+<!-- ---------------------------- homepage begin -------------------------------------------- -->
+
+<script type="text/javascript">
+<!--
+if (top.frames.length == 0){
+if (((window.location.protocol=="http:") || (window.location.protocol=="https:")) && ((window.location.hostname == "www.strato.de") || (window.location.hostname == "strato.de"))) {
+var IVW=window.location.protocol+"//strato.ivwbox.de/cgi-bin/ivw/CP/S00018";
+document.write("<div style=\"display:none;\"><img src=\""+IVW+"?r="+escape(document.referrer)+"&d="+(Math.random()*100000)+"\" width=\"1\" height=\"1\" alt=\"szmtag\" /></div>");
+}
+}
+//-->
+</script>
+<!-- /SZM -->
+<!-- ---------------------------- homepage end -------------------------------------------- -->
+<div id="page">
+<div id="inner_bg">
+        <div id="bg_top"></div>
+        <div id="bg_center"></div> <br /> <br /> <br />
+  <div id="belt_center"></div> 
+        <div id="belt_shade1"></div>
+        <div id="belt_shade2"></div> 
+    </div>
+    <div id="header">
+    <a href="index.php" id="logo_strato"><img src="_assets_de/image/main/logo_strato.png" alt="STRATO Logo" /></a><a id="login_link" href="https://www.strato.de/apps/CustomerService">Kundenlogin</a>
+    <ul id="nav_top">
+        <li><a href="index.php" class="active">Startseite</a></li>
+        <li><a href="http://www.strato.de" target="_blank">STRATO Website</a></li>
+        <li><a href="http://www.strato.de/kontakt" target="_blank">Kontakt</a></li>
+        <li><a href="http://www.strato-faq.de" target="_blank">FAQ</a></li>
+    </ul>
+   <ul id="nav_main">
+    </ul> 
+    </div>
+    <span class="belt_content"><span style="float:right; width: 200 px; height:150 px;"><img src="_assets_de/image/main/monitor_icon2.png" /></span></span> 
+    <div> 
+      <div id="content" class="num3"> 
+      
+
+          <!-- BEGIN: Content -->
+                <!--[if lte IE 8]>
+   <style type="text/css">
+   .boxwrapper > div > a.envelop {
+      		background-color:#fff;
+		filter:Alpha(opacity=0);
+    } 
+    </style>
+<![endif]-->
+
+<div id="content"><br />
+
+  <div class="belt_content"><br /><h1>STRATO Monitor</h1>
+</div> 
+  <br />
+
+Diese Übersicht über die Performance wird alle fünf Minuten neu vom Monitoring Server generiert und deckt die letzte<br /> Stunde ab. Die Y-Achse (Antwortzeit) wird dynamisch skaliert und den Antwortzeitenangepasst. Um die Graphen bei<br /> unterschiedlichen Skalierungen besser vergleichen zu können, wird bei fünf Sekunden eine gepunktete Linie eingeblendet.
+<div style="float:right; width: 200 px; height:174 px;"></div> 
+ 
+</div>
+
+<br /> <br /> 
+
+<br /> <br />
+
+
+<!-- TEASER - Status der Services -->
+
+<div id="sidebar">
+<div class="tsr">
+<div class="top">
+<h3>Status der Services</h3>
+</div>
+
+<div>
+
+<p>
+<h3>FTP:</h3>
+verfügbar (19:18 Uhr) <br />  <br />
+<h3>Kundenservicebereich:</h3>
+verfügbar (19:18 Uhr) <br /> <br />
+<h3>Vertragsbetreuung:</h3>
+verfügbar (19:18 Uhr) <br /> <br />
+<h3>SMTP (Mailversand):</h3>
+verfügbar (19:18 Uhr) <br /> <br />
+<h3>MySQL v5:</h3>
+verfügbar (19:18 Uhr) </p>
+
+<div class="clear"></div> 
+</div>
+<div class="bottom"> </div> 
+</div>
+
+<!-- END TEASER -->
+
+ 
+<!-- TEASER - Tagesdaten -->
+ <div class="tsr">
+<div class="top">
+<h3>Tagesdaten</h3>
+ </div>
+
+<div>
+<br /><div id="calendar">Tagesdatenauswertung</div>
+
+<div class="clear"> </div>
+</div> 
+<div class="bottom"> </div> 
+</div>
+
+
+<!-- END TEASER -->
+
+</div>
+
+   </div>
+   
+   <div class="boxLarge clear listBox">
+<div class="top"></div>	 <div style="height: 69em;">  
+		<h2>
+			Performance Snapshot 19:20 Uhr (<a href="tagesauswertung.php?date=2015-08-03" target="_self">zur Tagesstatistik<a></a></a>)</h2> 
+
+ <div class="diagramm">
+<img src="rrdimg/PRCUX_norm.png"/>   
+</div>
+
+<div class="diagramm">
+ <img src="rrdimg/PRHUX_norm.png"/>
+</div>
+ 
+<div class="diagramm">
+<img src="rrdimg/POWER_norm.png"/>
+</div>
+
+<div class="diagramm">
+<img src="rrdimg/VISIM_norm.png"/> 
+</div>
+
+<div class="diagramm">
+<img src="rrdimg/POP3ML_norm.png"/>
+</div>
+
+<div class="diagramm">
+<img src="rrdimg/IMAP4_norm.png"/> 
+</div>
+
+<div class="diagramm">
+<img src="rrdimg/MYSQL5_norm.png"/>
+</div>
+
+<div class="diagramm">
+<img src="rrdimg/FTPTRT_norm.png"/> 
+</div>
+
+<div class="diagramm">
+<img src="rrdimg/STRATO_norm.png"/>
+	</div>
+    </div>
+<div class="bottom"></div></div>
+<div class="clear"></div>
+
+
+    <div id="footer" class="clear">
+
+<p>Copyright © 2012 STRATO AG | <a href="http://www.strato.de/datenschutz/">Datenschutzerkl&auml;rung</a> | <a href="http://www.strato.de/agb/">AGB</a> | <a href="http://www.strato.de/impressum/">Impressum</a></p>
+
+    </div>
+    <div class="clear">&nbsp;</div>
+</div>
+<script type="text/javascript" src="_assets_de/js/lib_jquery_min.js"></script>
+<script type="text/javascript" src="_assets_de/js/main.js"></script>
+
+<!-- Bereichs JS / HOMEPAGE -->
+<script type="text/javascript" src="_assets_de/js/plugin/jquery.truncate.js"></script>
+<script type="text/javascript" src="_assets_de/js/calendar_js.js"></script>
+<script type="text/javascript">
+    addContentLoadListener( function() { 
+            new CalendarJS().init("calendar");
+    } );
+</script>
+<!-- ******************** Start Tracking-Extern ****************************** -->
+<script type="text/javascript" src="_assets_de/js/tracking_extern.js"></script>
+<!-- ******************** Ende Tracking-Extern ****************************** -->
+
+
+</body>
+</html>
