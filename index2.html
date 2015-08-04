@@ -95,7 +95,7 @@ var svg = d3.select("#graphbubble").append("svg")
   .append("g")
     .attr("transform", "translate(" + diameter / 2 + "," + diameter / 2 + ")");
 
-d3.json("idx.json", function(error, root) {
+d3.json("data/idndex-sorted.json", function(error, root) {
   if (error) return console.error(error);
 
   var focus = root,
