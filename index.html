@@ -59,7 +59,7 @@ var svg = d3.select("#graphbubble").append("svg")
   .append("g")
     .attr("transform", "translate(" + diameter / 2 + "," + diameter / 2 + ")");
 
-d3.json("index-sortedf.json", function(error, root) {
+d3.json("index.json", function(error, root) {
   if (error) return console.error(error);
 
   var focus = root,
